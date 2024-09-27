@@ -17,9 +17,29 @@ module.exports = [
           allow: ['^.*/eslint(\\.base)?\\.config\\.[cm]?js$'],
           depConstraints: [
             {
-              sourceTag: '*',
-              onlyDependOnLibsWithTags: ['*'],
+              "sourceTag": "type:feature",
+              "onlyDependOnLibsWithTags": ["type:feature", "type:ui"]
             },
+            {
+              "sourceTag": "type:ui",
+              "onlyDependOnLibsWithTags": ["type:ui"]
+            },
+            {
+              "sourceTag": "scope:orders",
+              "onlyDependOnLibsWithTags": [
+                "scope:orders",
+                "scope:products",
+                "scope:shared"
+              ]
+            },
+            {
+              "sourceTag": "scope:products",
+              "onlyDependOnLibsWithTags": ["scope:products", "scope:shared"]
+            },
+            {
+              "sourceTag": "scope:shared",
+              "onlyDependOnLibsWithTags": ["scope:shared"]
+            }
           ],
         },
       ],
