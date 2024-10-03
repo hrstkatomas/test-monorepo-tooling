@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="91945a08-32cc-4b12-87b3-8231b03c245d" name="Changes" comment="depeendency restrictions">
+      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitlab-ci.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/extensions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/another/eslint.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/another/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/another/jest.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/another/project.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/another/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/another/src/app/app.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/another/src/app/app.spec.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/another/src/app/app.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/another/src/app/nx-welcome.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/another/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/another/src/main.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/another/src/styles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/another/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/another/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/another/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/another/vite.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/app-e2e/eslint.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/app-e2e/playwright.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/app-e2e/project.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/app-e2e/src/example.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/app-e2e/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/app/eslint.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/app/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/app/jest.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/app/project.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/app/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/app/src/app/app.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/app/src/app/app.spec.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/app/src/app/app.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/app/src/app/nx-welcome.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/app/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/app/src/main.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/app/src/styles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/app/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/app/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/app/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/app/vite.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eslint.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jest.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jest.preset.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/orders/.babelrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/orders/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/orders/eslint.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/orders/project.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/orders/src/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/orders/src/lib/orders.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/orders/src/lib/orders.spec.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/orders/src/lib/orders.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/orders/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/orders/tsconfig.lib.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/orders/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/orders/vite.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/products/.babelrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/products/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/products/eslint.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/products/project.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/products/src/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/products/src/lib/products.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/products/src/lib/products.spec.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/products/src/lib/products.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/products/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/products/tsconfig.lib.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/products/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/products/vite.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/shared/ui/.babelrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/shared/ui/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/shared/ui/eslint.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/shared/ui/project.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/shared/ui/src/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/shared/ui/src/lib/shared-ui.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/shared/ui/src/lib/shared-ui.spec.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/shared/ui/src/lib/shared-ui.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/shared/ui/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/shared/ui/tsconfig.lib.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/shared/ui/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/shared/ui/vite.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nx.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.base.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitest.workspace.ts" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/opt/homebrew/Cellar/php/8.2.3/bin/php" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2mdyGhNneF778p2D3MrdOt3xaqS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Nx.another:serve.executor&quot;: &quot;Run&quot;,
+    &quot;Nx.another:serveqweqew.executor&quot;: &quot;Run&quot;,
+    &quot;Nx.app:serve.executor&quot;: &quot;Run&quot;,
+    &quot;Nx.app:serve:development.executor&quot;: &quot;Run&quot;,
+    &quot;Nx.flashscore:build:development.executor&quot;: &quot;Run&quot;,
+    &quot;Nx.flashscore:serve.executor&quot;: &quot;Run&quot;,
+    &quot;Nx.flashscore:serve:development.executor&quot;: &quot;Run&quot;,
+    &quot;Nx.rs-pack-app:serve-static.executor&quot;: &quot;Run&quot;,
+    &quot;Nx.rs-pack-app:serve:development.executor&quot;: &quot;Run&quot;,
+    &quot;Nx.rs-pack-app:serve:production.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Volumes/livesport/test-nx-monorepo&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Volumes/livesport/test-nx-monorepo/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;TEXT&quot;
+    ],
+    &quot;dev.nx.console.project_details_files&quot;: [
+      &quot;/Volumes/livesport/test-nx-monorepo/apps/flashscore/project.json&quot;,
+      &quot;/Volumes/livesport/test-nx-monorepo/apps/flashscore/package.json&quot;,
+      &quot;/Volumes/livesport/test-nx-monorepo/apps/flashscore/eslint.config.js&quot;,
+      &quot;/Volumes/livesport/test-nx-monorepo/apps/flashscore/jest.config.ts&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/apps" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Nx.flashscore:serve:development">
+    <configuration name="another:serve" type="NxRunConfigurationType">
+      <option name="nx-projects" value="another" />
+      <option name="nx-targets" value="serve" />
+      <option name="nx-target-configuration" value="" />
+      <envs />
+      <option name="arguments" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="another:serveqweqew" type="NxRunConfigurationType">
+      <option name="nx-projects" value="another" />
+      <option name="nx-targets" value="serveqweqew" />
+      <option name="nx-target-configuration" value="" />
+      <envs />
+      <option name="arguments" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="app:serve" type="NxRunConfigurationType">
+      <option name="nx-projects" value="app" />
+      <option name="nx-targets" value="serve" />
+      <option name="nx-target-configuration" value="" />
+      <envs />
+      <option name="arguments" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="app:serve:development" type="NxRunConfigurationType">
+      <option name="nx-projects" value="app" />
+      <option name="nx-targets" value="serve" />
+      <option name="nx-target-configuration" value="development" />
+      <envs />
+      <option name="arguments" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="flashscore:build:development" type="NxRunConfigurationType">
+      <option name="nx-projects" value="flashscore" />
+      <option name="nx-targets" value="build" />
+      <option name="nx-target-configuration" value="development" />
+      <envs />
+      <option name="arguments" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="flashscore:serve" type="NxRunConfigurationType">
+      <option name="nx-projects" value="flashscore" />
+      <option name="nx-targets" value="serve" />
+      <option name="nx-target-configuration" value="" />
+      <envs />
+      <option name="arguments" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="flashscore:serve:development" type="NxRunConfigurationType">
+      <option name="nx-projects" value="flashscore" />
+      <option name="nx-targets" value="serve" />
+      <option name="nx-target-configuration" value="development" />
+      <envs />
+      <option name="arguments" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="rs-pack-app:serve-static" type="NxRunConfigurationType">
+      <option name="nx-projects" value="rs-pack-app" />
+      <option name="nx-targets" value="serve-static" />
+      <option name="nx-target-configuration" value="" />
+      <envs />
+      <option name="arguments" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="rs-pack-app:serve:development" type="NxRunConfigurationType">
+      <option name="nx-projects" value="rs-pack-app" />
+      <option name="nx-targets" value="serve" />
+      <option name="nx-target-configuration" value="development" />
+      <envs />
+      <option name="arguments" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="rs-pack-app:serve:production" type="NxRunConfigurationType">
+      <option name="nx-projects" value="rs-pack-app" />
+      <option name="nx-targets" value="serve" />
+      <option name="nx-target-configuration" value="production" />
+      <envs />
+      <option name="arguments" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PS-241.18034.69" />
+        <option value="bundled-php-predefined-ba97393d7c68-48a1a656d44e-com.jetbrains.php.sharedIndexes-PS-241.18034.69" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="91945a08-32cc-4b12-87b3-8231b03c245d" name="Changes" comment="" />
+      <created>1727420653944</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1727420653944</updated>
+      <workItem from="1727420654980" duration="52000" />
+      <workItem from="1727420712434" duration="441000" />
+      <workItem from="1727421274692" duration="31386000" />
+      <workItem from="1727860321337" duration="545000" />
+      <workItem from="1727862076726" duration="8526000" />
+    </task>
+    <task id="LOCAL-00001" summary="initialize project with NX">
+      <option name="closed" value="true" />
+      <created>1727421636977</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1727421636977</updated>
+    </task>
+    <task id="LOCAL-00002" summary="package.json dependencies note">
+      <option name="closed" value="true" />
+      <created>1727424460005</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1727424460005</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add another app and libs">
+      <option name="closed" value="true" />
+      <created>1727425491762</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1727425491762</updated>
+    </task>
+    <task id="LOCAL-00004" summary="affected projects">
+      <option name="closed" value="true" />
+      <created>1727426503925</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1727426503925</updated>
+    </task>
+    <task id="LOCAL-00005" summary="depeendency restrictions">
+      <option name="closed" value="true" />
+      <created>1727427653425</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1727427653425</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initialize project with NX" />
+    <MESSAGE value="package.json dependencies note" />
+    <MESSAGE value="add another app and libs" />
+    <MESSAGE value="affected projects" />
+    <MESSAGE value="depeendency restrictions" />
+    <option name="LAST_COMMIT_MESSAGE" value="depeendency restrictions" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
