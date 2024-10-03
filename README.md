@@ -5,3 +5,7 @@
 pnpm install turbo --global
 ```
 
+2. Install project dependencies:
+```bash
+pnpm install
+```
