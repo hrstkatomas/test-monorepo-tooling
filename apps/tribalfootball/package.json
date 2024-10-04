@@ -1,28 +1,38 @@
 {
-  "name": "tribalfootball",
-  "private": true,
-  "version": "1.0.0",
-  "scripts": {
-    "dev": "cross-env NODE_ENV=development rspack serve",
-    "build": "cross-env NODE_ENV=production rspack build"
-  },
-  "dependencies": {
-    "@repo/ui": "workspace:*",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "devDependencies": {
-    "@biomejs/biome": "1.9.3",
-    "@repo/typescript-config": "workspace:*",
-    "@repo/ui": "workspace:*",
-    "@rspack/cli": "^1.0.8",
-    "@rspack/core": "^1.0.8",
-    "@rspack/plugin-react-refresh": "1.0.0",
-    "@types/react": "^18.2.48",
-    "@types/react-dom": "^18.2.18",
-    "cross-env": "^7.0.3",
-    "react-refresh": "^0.14.0",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.3.3"
-  }
+	"name": "tribalfootball",
+	"private": true,
+	"version": "1.0.0",
+	"scripts": {
+		"dev": "concurrently \"bun:watch:*\"",
+		"watch:tsc": "tsc --watch",
+		"build:dev": "cross-env NODE_ENV=development rspack build",
+		"watch:build:dev": "bun run build:dev -- --watch --mode development",
+		"watch:serve": "bun --watch run server.ts",
+		"build": "cross-env NODE_ENV=production rspack build"
+	},
+	"dependencies": {
+		"@repo/ui": "workspace:*",
+		"mrmime": "^2.0.0",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.3",
+		"@repo/typescript-config": "workspace:*",
+		"@repo/ui": "workspace:*",
+		"@rspack/cli": "^1.0.8",
+		"@rspack/core": "^1.0.8",
+		"@rspack/plugin-react-refresh": "1.0.0",
+		"@types/bun": "^1.1.10",
+		"@types/react": "^18.2.48",
+		"@types/react-dom": "^18.2.18",
+		"compression-webpack-plugin": "^11.1.0",
+		"concurrently": "^9.0.1",
+		"cross-env": "^7.0.3",
+		"hono": "^4.6.3",
+		"react-refresh": "^0.14.0",
+		"rspack-manifest-plugin": "^5.0.1",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.3.3"
+	}
 }

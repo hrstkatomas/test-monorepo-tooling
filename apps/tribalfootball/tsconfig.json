@@ -1,6 +1,6 @@
 {
 	"extends": "@repo/typescript-config/react-library.json",
-	"include": ["src"],
+	"exclude": ["rspack.config.ts"],
 	"ts-node": {
 		"compilerOptions": {
 			"module": "CommonJS"

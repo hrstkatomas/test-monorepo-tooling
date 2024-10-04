@@ -1,6 +1,8 @@
 import { defineConfig } from "@rspack/cli";
 import { rspack } from "@rspack/core";
-const RefreshPlugin = require("@rspack/plugin-react-refresh")
+import { RspackManifestPlugin } from "rspack-manifest-plugin";
+import CompressionPlugin = require("compression-webpack-plugin");
+const RefreshPlugin = require("@rspack/plugin-react-refresh");
 
 const isDev = process.env.NODE_ENV === "development";
 
@@ -10,16 +12,21 @@ const targets = ["defaults", "supports es6-module"];
 export default defineConfig({
 	context: __dirname,
 	entry: {
-		main: "./src/main.tsx"
+		main: "./src/main.tsx",
 	},
 	resolve: {
-		extensions: ["...", ".ts", ".tsx", ".jsx"]
+		extensions: ["...", ".ts", ".tsx", ".jsx"],
+	},
+	output: {
+		publicPath: "",
+		filename: "[name].[chunkhash:7].js",
+		chunkFilename: "[name].[chunkhash:7].js",
 	},
 	module: {
 		rules: [
 			{
 				test: /\.svg$/,
-				type: "asset"
+				type: "asset",
 			},
 			{
 				test: /\.(jsx?|tsx?)$/,
@@ -30,38 +37,38 @@ export default defineConfig({
 							jsc: {
 								parser: {
 									syntax: "typescript",
-									tsx: true
+									tsx: true,
 								},
 								transform: {
 									react: {
 										runtime: "automatic",
 										development: isDev,
-										refresh: isDev
-									}
-								}
+										refresh: isDev,
+									},
+								},
 							},
-							env: { targets }
-						}
-					}
-				]
-			}
-		]
+							env: { targets },
+						},
+					},
+				],
+			},
+		],
 	},
 	plugins: [
-		new rspack.HtmlRspackPlugin({
-			template: "./index.html"
-		}),
-		isDev ? new RefreshPlugin() : null
+		new RspackManifestPlugin({}),
+		new CompressionPlugin({ algorithm: "gzip" }),
+		new CompressionPlugin({ algorithm: "brotliCompress" }),
+		isDev ? new RefreshPlugin() : null,
 	].filter(Boolean),
 	optimization: {
 		minimizer: [
 			new rspack.SwcJsMinimizerRspackPlugin(),
 			new rspack.LightningCssMinimizerRspackPlugin({
-				minimizerOptions: { targets }
-			})
-		]
+				minimizerOptions: { targets },
+			}),
+		],
 	},
 	experiments: {
-		css: true
-	}
+		css: true,
+	},
 });
